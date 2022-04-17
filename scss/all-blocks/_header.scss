@@ -1,0 +1,32 @@
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.sitenav{
+  margin-left: auto;
+}
+.sitenav__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items:center;
+}
+.sitenav__link{
+  margin: 0;
+  padding: 0;
+  font-family:var(--barlow);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  text-decoration: none;
+}
+.sitenav__item+.sitenav__item{
+  margin-left: 20px;
+}
